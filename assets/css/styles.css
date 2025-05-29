@@ -42,11 +42,15 @@ a {
 /*=============== LOGO ===============*/
 
 .logo-container {
-  margin-bottom: 2rem;
+   display: flex;
+  justify-content: center;
+  margin-top: 2rem; /* ou 1rem pour un logo plus proche du haut */
+
 }
 
 .logo {
   width: 150px;
+  height: auto;
 }
 
 
